@@ -18,27 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog Title # Make a title for your blog
-email: author_email@email.com # Add your email 
-description: >- # this means to ignore newlines until "baseurl:"
+title: Titanic Survival Rate # Make a title for your blog
+email: raphaelliu801002@gmail.com # Add your email 
+description: Here is the description >- # this means to ignore newlines until "baseurl:"
  Change the description so that it describes your blog
 baseurl: "/stat386-projects" # keep this the same or change it to the name of the repository 
-url: "https://esnt.github.io" #  change this to "https://<your-github-username>.github.io"
+url: "https://Che-Wei-Liu.github.io" #  change this to "https://<your-github-username>.github.io"
 image: "assets/images/image5.jpg"
-author: Your name
-copyright: ABCD # Your initials or what you want the copyright to be.  Leave empty for no copyright
+author: Che Wei Liu
+copyright: CWL # Your initials or what you want the copyright to be.  Leave empty for no copyright
 
 # Social media users names.  Leave fields blank that you don't want displayed
-twitter_username: 386student
-github_username:  386student
-linkedin_username: 386student
+twitter_username: 
+github_username:  Che-Wei-Liu
+linkedin_username: Che-Wei Liu
 dribbble_username: 
-facebook_username: 386student
+facebook_username: 
 flickr_username:
 instagram_username: 
 pinterest_username:
 youtube_username: 
-googleplus_username: 386student
+googleplus_username: 
 
 
 # Build settings
