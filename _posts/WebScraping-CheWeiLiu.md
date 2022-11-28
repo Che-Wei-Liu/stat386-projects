@@ -1,17 +1,2 @@
----
-layout: post
-title:  "Top 200 Highest-Grossing Movies of All Time"
-date:   2022-11-28
-author: Che Wei Liu
-description: How to collect highest-grossing movies in your movie list using BeautifulSoup
-image: /assets/images/Movies.jpg
----
 
-# Introduction
-I am a super movie fan and I believe you are as well. Aren't you curious about what movies are on the Top 200 Highest-Grossing Movies of All Time list? I am curious! Moreover, high-grossing movies often means high rating and are mostly good movies. I am excited to put some more great movies in my pocket list.
-
-The dataset I use is form IMDb website. They list the details of each movie in the list like ranking, title, year, runtime, rating, box office, and etc.
-This is what the Highest-Grossing Movies of All Time list looks like on their website. 
-
-![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/IMDb test.jpg)
 
