@@ -9,19 +9,15 @@ image: /assets/images/Pandas.webp
 
 **Have you ever wondered what is Pandas? With the rising need of data science nowadays, you definitely heard of Python; if you know Python, you definitely heard of Pandas. Not the panda who knows Kung Fu! But once you know Pandas, you will gain a superpower called data analysis which is as cool as Kung Fu. In this post, I will introduce to you some very common and useful functions of Pandas, get ready!**  
 <br>
-# What is Pandas?
-<br>
-<br>
+# What is Pandas?<br>
 pandas is a software library written for the Python programming language for **data manipulation and analysis**. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license. The name is derived from the term **"panel data"**, an econometrics term for data sets that include observations over multiple time periods for the same individuals. Its name is a play on the phrase "Python data analysis" itself. Wes McKinney started building what would become pandas at AQR Capital while he was a researcher there from 2007 to 2010.
 <br>
 <br>
-# How do I call Pandas library?
-<br>
+# How do I call Pandas library?<br>
 It's fairly easy to call Pandas in Python. We just use `import pandas as pd`. You don't have to use "pd" as Pandas's nickname, you can choose whatever you want, it's just "pd" is commonly used by almost all Pandas users. Everyone knows "pd" represents Pandas!
 <br>
 <br>
-# How to create a series or a dataframe in Pandas?
-<br>
+# How to create a series or a dataframe in Pandas?<br>
 **Series:**<br>
 `s = pd.Series([1, 2, 3, 4],  index=['a',  'b',  'c',  'd'])`<br><br>
 **Dataframe:**<br>
@@ -33,8 +29,7 @@ It's fairly easy to call Pandas in Python. We just use `import pandas as pd`. Yo
 ![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/dataframe.jpg)
 <br>
 <br>
-# Read and write to csv/Excel
-<br>
+# Read and write to csv/Excel<br>
 Oftentimes we need to output our dataframe to csv file, here is how we do it:
 <br>
 **csv:**<br>
@@ -47,8 +42,7 @@ Oftentimes we need to output our dataframe to csv file, here is how we do it:
 `df.to_excel('dir/myDataFrame.xlsx',  sheet_name='Sheet1')`
 <br>
 <br>
-# Selecting
-<br>
+# Selecting<br>
 **By label/position**<br>
 `df[1:2]` will get you the first row of this dataframe. Likewise, `df[1:3]` will get you index 1 to index 2<br>
 **Note: The index in Python starts at 0. So if you want the fifth item, the index for it is 4**
@@ -73,10 +67,9 @@ Sometimes we need to select by some conditions. This is when >, <, ==, !=, &, | 
 ![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/taiwan.jpg)
 <br><br>
 3. `df[(df['Population']<120000000)|(df['Capital']=='Tokyo')]`<br>
-The above code will give us all three cities since we use | (or) expression. All cities satisfy the conditions.</ul>
+The above code will give us all three cities since we use | (or) expression. All cities satisfy the conditions.<br></ul></ul>
 <br><br>
-# Dropping, sort and rank
-<br>
+# Dropping, sort and rank<br>
 **Drop:**<br>
 `df.drop('Country', axis=1)` This will help us drop the "Country" column.<br><br>
 **Sort & Rank**<br>
@@ -101,8 +94,7 @@ The above code will give us all three cities since we use | (or) expression. All
 `df.mean()` Mean of values<br>
 `df.median()` Median of values<br> 
 <br>
-# Reshaping data - change the layout of a data set
-<br>
+# Reshaping data - change the layout of a data set<br>
 1. Transfer your data set from wide to long<br>
 `pd.melt(df, id_vars=['id_var'], value_vars=['value_var'])` This is extremely helpful when you are tidying your data<br>
 2. Transfer your data set from long to wide<br>
