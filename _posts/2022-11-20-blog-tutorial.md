@@ -4,7 +4,7 @@ title:  "A Beginner's Guide to Data Wrangling with Pandas"
 date:   2022-11-20
 author: Che Wei Liu
 description: After reading this guide, you will be more familiar with Pandas Basics 
-image: /assets/images/Pandas.avif
+image: /assets/images/Pandas.webp
 ---
 
 **Have you ever wondered what is Pandas? With the rising need of data science nowadays, you definitely heard of Python; if you know Python, you definitely heard of Pandas. Not the panda who knows Kung Fu! But once you know Pandas, you will gain a superpower called data analysis which is as cool as Kung Fu. In this post, I will introduce to you some very common and useful functions of Pandas, get ready!**  
