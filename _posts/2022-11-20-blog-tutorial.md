@@ -21,8 +21,7 @@ It's fairly easy to call Pandas in Python. We just use `import pandas as pd`. Yo
 **Series:**<br>
 `s = pd.Series([1, 2, 3, 4],  index=['a',  'b',  'c',  'd'])`<br><br>
 **Dataframe:**<br>
-`data = {'Country': ['Taiwan',  'Korea',  'Japan'], 'Capital': ['Taipei',  'Seoul',  'Tokyo'], 'Population': [23920776, 51375508, 125543793]}`
-<br>
+`data = {'Country': ['Taiwan',  'Korea',  'Japan'], 'Capital': ['Taipei',  'Seoul',  'Tokyo'], 'Population': [23920776, 51375508, 125543793]}`<br>
 `df = pd.DataFrame(data,columns=['Country',  'Capital',  'Population'])`
 <br>
 <br>
@@ -38,44 +37,50 @@ Oftentimes we need to output our dataframe to csv file, here is how we do it:
 <br>
 <br>
 **Excel:**<br>
-`pd.read_excel('file.xlsx')`
+`pd.read_excel('file.xlsx')`<br>
 `df.to_excel('dir/myDataFrame.xlsx',  sheet_name='Sheet1')`
 <br>
 <br>
 # Selecting<br>
 **By label/position**<br>
 `df[1:2]` will get you the first row of this dataframe. Likewise, `df[1:3]` will get you index 1 to index 2<br>
-**Note: The index in Python starts at 0. So if you want the fifth item, the index for it is 4**
-<br>
+**Note: The index in Python starts at 0. So if you want the fifth item, the index for it is 4**<br>
 `df[1:]` will get the rest of the dataframe starting from index 1.
-<br><br>
+<br>
+<br>
 ![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/the rest.jpg)
 <br>
 <br>
-**Conditional Selecting**
-<br>
+**Conditional Selecting**<br>
 Sometimes we need to select by some conditions. This is when >, <, ==, !=, &, | come in handy.</ul>
-<br><br>
-**Let's see some examples here:**
 <br>
+<br>
+**Let's see some examples here:**<br>
 1. `df[df['Population']>120000000]`
-<br><br>
+<br>
+<br>
 ![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/japan.jpg)
-<br><br>
+<br>
+<br>
 2. `df[(df['Population']<50000000)&(df['Capital']!='Seoul')]`
-<br><br>
+<br>
+<br>
 ![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/taiwan.jpg)
-<br><br>
+<br>
+<br>
 3. `df[(df['Population']<120000000)|(df['Capital']=='Tokyo')]`<br>
-The above code will give us all three cities since we use | (or) expression. All cities satisfy the conditions.<br></ul></ul>
-<br><br>
+The above code will give us all three cities since we use | (or) expression. All cities satisfy the conditions.
+</ul>
+<br>
+<br>
 # Dropping, sort and rank<br>
 **Drop:**<br>
 `df.drop('Country', axis=1)` This will help us drop the "Country" column.<br><br>
 **Sort & Rank**<br>
 `df.sort_index()` Sort by labels along an axis<br>
 `df.sort_values(by='Country')` Sort by the values along an axis<br>
-`df.rank()` Assign ranks to entries<br>
+`df.rank()` Assign ranks to entries
+<br>
 <br>
 # Retrieve dataframe information<br>
 **Basic information**<br>
@@ -83,7 +88,8 @@ The above code will give us all three cities since we use | (or) expression. All
 `df.index` Describe index<br>
 `df.columns` Describe DataFrame columns<br>
 `df.info()` Info on DataFrame<br>
-`df.count()` Number of non-NA values<br>
+`df.count()` Number of non-NA values
+<br>
 <br>
 **Basic statistical information**<br>
 `df.sum()` Sum of values<br>
@@ -92,7 +98,8 @@ The above code will give us all three cities since we use | (or) expression. All
 `df.idxmin()/df.idxmax()` Minimum/Maximum index value<br>
 `df.describe()` Summary statistic<br>
 `df.mean()` Mean of values<br>
-`df.median()` Median of values<br> 
+`df.median()` Median of values
+<br> 
 <br>
 # Reshaping data - change the layout of a data set<br>
 1. Transfer your data set from wide to long<br>
@@ -102,12 +109,17 @@ The above code will give us all three cities since we use | (or) expression. All
 3. Append rows of dataframes<br>
 `pd.concat([df1, df2])`<br>
 4. Append columns of dataframes<br>
-`pd.concat([df1, df2, axis=1])`<br></ul>
-<br><br>
+`pd.concat([df1, df2, axis=1])`<br>
+</ul>
+<br>
+<br>
 ![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/tables.jpg)
-<br><br>
+<br>
+<br>
 # Conclusion<br>
-Pandas is a extremly powerful tool in data tidying, wrangling, and analysis. This post is not an exhaustive look at Pandas, there are a lot of different ways to achieve the same results. Some are smarter and faster than my methods. Below are a list of helpful links that will enhance your understanding and ability of utilizing this robust library. As you diligently research and apply different methods in your python script using Pandas, you will surely become a better data analyst and a Pandas expert!<br>
+Pandas is a extremly powerful tool in data tidying, wrangling, and analysis. This post is not an exhaustive look at Pandas, there are a lot of different ways to achieve the same results. Some are smarter and faster than my methods. Below are a list of helpful links that will enhance your understanding and ability of utilizing this robust library. As you diligently research and apply different methods in your python script using Pandas, you will surely become a better data analyst and a Pandas expert!
+<br>
+<br>
 [W3Schools on Pandas](https://www.w3schools.com/python/pandas/default.asp)<br>
 [GeeksforGeeks on Pandas](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)<br>
 [Python Pandas tutorial](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/)<br>
