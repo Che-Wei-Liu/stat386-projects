@@ -118,6 +118,8 @@ The above code will give us all three cities since we use | (or) expression. All
 4. Append columns of dataframes<br>
 `pd.concat([df1, df2, axis=1])`<br></ul>
 <br><br>
+![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/tables.jpg)
+<br><br>
 # Conclusion<br><br>
 Pandas is a extremly powerful tool in data tidying, wrangling, and analysis. This post is not an exhaustive look at Pandas, there are a lot of different ways to achieve the same results. Some are smarter and faster than my methods. Below are a list of helpful links that will enhance your understanding and ability of utilizing this robust library. As you diligently research and apply different methods in your python script using Pandas, you will surely become a better data analyst and a Pandas expert!<br>
 [W3Schools on Pandas](https://www.w3schools.com/python/pandas/default.asp)
