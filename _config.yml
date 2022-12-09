@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Raphael's data blog # Make a title for your blog
+title: Raphael Does Data # Make a title for your blog
 email: raphaelliu801002@gmail.com # Add your email 
 description:  >- # this means to ignore newlines until "baseurl:"
- Here are some projects for my stat386 class.
+Here are some projects that I want to share with you :)
 baseurl: "/stat386-projects" # keep this the same or change it to the name of the repository 
 url: "https://Che-Wei-Liu.github.io" #  change this to "https://<your-github-username>.github.io"
-image: "assets/images/image5.jpg"
+image: "assets/images/Raphael.avif"
 author: Che Wei Liu
 copyright: CWL # Your initials or what you want the copyright to be.  Leave empty for no copyright
 
