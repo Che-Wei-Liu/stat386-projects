@@ -12,4 +12,3 @@ permalink: /about/
 <br>
 Hi! My name is Che Wei Liu. I am a senior studying Statistics at Brigham Young University. I have a 3-year old daughter named Alisha and my wife is Nina. My family is from Taiwan. Nice to meet you :)
 <br>
-<br>
