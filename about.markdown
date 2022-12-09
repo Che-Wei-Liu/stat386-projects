@@ -5,5 +5,11 @@ permalink: /about/
 ---
 
 # About Me
-
-Senior studying applied statistics looking for a related full-time opportunity to contribute to a company’s success. Quick and eager learner motivated to add value. Extremely detail-oriented skilled in identifying and solving problems. Great communicator and leader to work for teams. Passionate data analyst profession in various programming languages.
+<br>
+<br>
+![Test Image](https://raw.githubusercontent.com/Che-Wei-Liu/stat386-projects/main/assets/images/Me & my daughter Alisha.jpg)
+<br>
+<br>
+Hi! My name is Che Wei Liu. I am a senior studying Applied Statistics at Brigham Young University. I have a 3-year old daughter named Alisha and my wife is Nina. My family is from Taiwan. Nice to meet you :)
+<br>
+<br>
